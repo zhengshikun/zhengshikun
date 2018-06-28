@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+  color: #000;
+}
+body{
+  background:rgb(233, 240, 245);
+  font-family: "Times New Roman",
+  "Microsoft Jhenghei",
+  "Microsoft YaHei",
+  serif;
+}
+@font-face {
+  font-family: 'Mardian';
+  src: url('./assets/font-family/MardianDemo.ttf');
+}
+@font-face{
+  font-family: 'calliehand';
+  src: url('./assets/font-family/Callie\ Hand\ 1.0.ttf');
+}
