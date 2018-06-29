@@ -23,5 +23,17 @@ export default [
     section3: '这里将会记录很多的事情~期待中~',
     url: 'https://zhengshikun.github.io/notes/2/',
     image: 'https://github.com/zhengshikun/notes/blob/master/images/2.jpg?raw=true',
+  },
+  {
+    id: 3,
+    name: 'Ajax的简单介绍',
+    from: '@我',
+    time: '2018年6月29日',
+    classification: '技术向',
+    section1: '最近准备写一些知识点',
+    section2: '这次整理了菜鸟教程的Ajax部分',
+    section3: '留作收藏，顺便复习嘛~',
+    url: 'https://zhengshikun.github.io/notes/3/',
+    image: 'https://github.com/zhengshikun/notes/blob/master/images/3.jpg?raw=true',
   }
 ]
