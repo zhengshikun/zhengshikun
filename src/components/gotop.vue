@@ -4,39 +4,38 @@
     </div>
 </template>
 
-
 <script>
 export default{
-  props:{
-    step:{   //此数据是控制动画快慢的
-      type:Number,
-       default:50  
+  props: {
+    step: {
+      type: Number,
+      default: 50
     }
   },
-  data(){
+  data () {
     return {
-      isActive:false,
+      isActive: false
     }
   },
-  methods:{
-    toTop(i){
-      //参数i表示间隔的幅度大小，以此来控制速度
-      document.documentElement.scrollTop-=i;
-        if (document.documentElement.scrollTop>0) {
-          var c=setTimeout(()=>this.toTop(i),16);
-        }else {
-          clearTimeout(c);
-        }
-    },
-    
+  methods: {
+    toTop (i) {
+      //  参数i表示间隔的幅度大小，以此来控制速度
+      document.documentElement.scrollTop -= i
+      if (document.documentElement.scrollTop > 0) {
+        var c = setTimeout(() => this.toTop(i), 16)
+      } else {
+        clearTimeout(c)
+      }
+    }
+
   },
-  created(){
-    var vm=this;
-    window.onscroll=function(){
-      if (document.documentElement.scrollTop>60) {
-        vm.isActive=true;
-      }else {
-        vm.isActive=false;
+  created () {
+    var vm = this
+    window.onscroll = function () {
+      if (document.documentElement.scrollTop > 60) {
+        vm.isActive = true
+      } else {
+        vm.isActive = false
       }
     }
   }

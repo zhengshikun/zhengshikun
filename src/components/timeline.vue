@@ -19,7 +19,7 @@
 <script>
 export default {
   props: {
-    info: Object 
+    info: Object
   },
   data () {
     return {

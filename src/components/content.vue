@@ -16,7 +16,7 @@
 <script>
 export default {
   props: {
-    info: Object 
+    info: Object
   }
 }
 </script>

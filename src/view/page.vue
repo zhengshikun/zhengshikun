@@ -14,25 +14,25 @@
 </template>
 
 <script>
-import Content from '../components/content.vue';
-import Head from '../components/head.vue';
-import Clock from '../components/clock.vue';
-import Contact from '../components/contact.vue';
-import Aboutme from '../components/aboutme.vue';
+import Content from '../components/content.vue'
+import Head from '../components/head.vue'
+import Clock from '../components/clock.vue'
+import Contact from '../components/contact.vue'
+import Aboutme from '../components/aboutme.vue'
 export default {
   components: {Content, Head, Clock, Contact, Aboutme},
   computed: {
     content () {
-      return this.$store.state.boke;
+      return this.$store.state.boke
     },
     filtercontent () {
-      let content = [...this.content];
-      content = content.sort((a, b) => b.id - a.id);
-      return content;
+      let content = [...this.content]
+      content = content.sort((a, b) => b.id - a.id)
+      return content
     }
   },
   mounted () {
-    this.$store.dispatch('getBoke');
+    this.$store.dispatch('getBoke')
   }
 }
 </script>

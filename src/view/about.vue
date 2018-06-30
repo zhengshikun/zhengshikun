@@ -52,7 +52,7 @@
 
 <script>
 export default {
-  
+  data () {}
 }
 </script>
 
@@ -103,4 +103,3 @@ hr{
   margin: 0 auto;
 }
 </style>
-

@@ -1,4 +1,3 @@
-//博客主体的数据
 export default [
   {
     id: 1,
@@ -9,8 +8,8 @@ export default [
     section1: '第一篇文章我也不知道该说写什么。',
     section2: '点击图片就跳转到我的GitHub了。',
     section3: '以后会跳转详情的文章的。',
-    url: 'https://github.com/zhengshikun', 
-    image: 'https://github.com/zhengshikun/notes/blob/master/images/1.jpg?raw=true',
+    url: 'https://github.com/zhengshikun',
+    image: 'https://github.com/zhengshikun/notes/blob/master/images/1.jpg?raw=true'
   },
   {
     id: 2,
@@ -22,7 +21,7 @@ export default [
     section2: '毕竟自己一个人磨辊乱打出来的作品。',
     section3: '这里将会记录很多的事情~期待中~',
     url: 'https://zhengshikun.github.io/notes/2/',
-    image: 'https://github.com/zhengshikun/notes/blob/master/images/2.jpg?raw=true',
+    image: 'https://github.com/zhengshikun/notes/blob/master/images/2.jpg?raw=true'
   },
   {
     id: 3,
@@ -34,7 +33,7 @@ export default [
     section2: '这次整理了菜鸟教程的Ajax部分',
     section3: '留作收藏，顺便复习嘛~',
     url: 'https://zhengshikun.github.io/notes/3/',
-    image: 'https://github.com/zhengshikun/notes/blob/master/images/3.jpg?raw=true',
+    image: 'https://github.com/zhengshikun/notes/blob/master/images/3.jpg?raw=true'
   },
   {
     id: 4,
@@ -46,6 +45,6 @@ export default [
     section2: '这次依旧整理菜鸟教程的json部分',
     section3: '大概整理了一下',
     url: 'https://zhengshikun.github.io/notes/4/',
-    image: 'https://github.com/zhengshikun/notes/blob/master/images/4.jpg?raw=true',
+    image: 'https://github.com/zhengshikun/notes/blob/master/images/4.jpg?raw=true'
   }
 ]

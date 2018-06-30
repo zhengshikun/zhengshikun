@@ -29,9 +29,9 @@ import Footer from './components/footer.vue'
 import Gotop from './components/gotop.vue'
 export default {
   components: {Footer, Gotop},
-  data() {
+  data () {
     return {
-      
+
     }
   }
 }

@@ -6,20 +6,20 @@
 </template>
 
 <script>
-import Experiments from '../components/experiments.vue';
+import Experiments from '../components/experiments.vue'
 export default {
   components: {Experiments},
   computed: {
     experiment () {
-      return this.$store.state.experiment;
+      return this.$store.state.experiment
     },
     filterexperiment () {
-      let experiment = [...this.experiment];
-      return experiment;
+      let experiment = [...this.experiment]
+      return experiment
     }
   },
   mounted () {
-    this.$store.dispatch('getExperiment');
+    this.$store.dispatch('getExperiment')
   }
 }
 </script>

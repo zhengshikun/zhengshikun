@@ -4,21 +4,21 @@
     </div>
 </template>
 <script>
-import Timeline from '../components/timeline.vue';
+import Timeline from '../components/timeline.vue'
 export default {
-  components:{Timeline},
+  components: {Timeline},
   computed: {
     content () {
-      return this.$store.state.notes;
+      return this.$store.state.notes
     },
     filtercontent () {
-      let content = [...this.content];
-      content = content.sort((a,b) => b.id - a.id);
-      return content;
+      let content = [...this.content]
+      content = content.sort((a, b) => b.id - a.id)
+      return content
     }
   },
   mounted () {
-    this.$store.dispatch('getNotes');
+    this.$store.dispatch('getNotes')
   }
 }
 </script>

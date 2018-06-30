@@ -27,26 +27,26 @@
 </template>
 
 <script>
-import Content from '../components/content.vue';
-import Head from '../components/head.vue';
-import Clock from '../components/clock.vue';
-import Contact from '../components/contact.vue';
-import Aboutme from '../components/aboutme.vue';
+import Content from '../components/content.vue'
+import Head from '../components/head.vue'
+import Clock from '../components/clock.vue'
+import Contact from '../components/contact.vue'
+import Aboutme from '../components/aboutme.vue'
 export default {
   components: {Content, Head, Clock, Contact, Aboutme},
   computed: {
     content () {
-      return this.$store.state.boke;
+      return this.$store.state.boke
     },
     classifications () {
-      return this.$store.getters.classifications;
+      return this.$store.getters.classifications
     },
     filtercontent () {
-      let content = [...this.content];
+      let content = [...this.content]
       if (this.filterClassify !== '') {
         content = content.filter(item => item.classification === this.filterClassify)
       }
-      return content;
+      return content
     }
   },
   data () {
@@ -58,14 +58,14 @@ export default {
   methods: {
     handleFilterClassifications (item) {
       if (this.filterClassify === item) {
-        this.filterClassify = '';
-      }else {
-        this.filterClassify = item;
+        this.filterClassify = ''
+      } else {
+        this.filterClassify = item
       }
     }
   },
   mounted () {
-    this.$store.dispatch('getBoke');
+    this.$store.dispatch('getBoke')
   }
 }
 </script>

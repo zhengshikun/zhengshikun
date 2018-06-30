@@ -10,14 +10,14 @@
 export default {
   computed: {
     time () {
-      return this.$store.state.time;
+      return this.$store.state.time
     },
     date () {
-      return this.$store.state.date;
+      return this.$store.state.date
     }
   },
-  mounted() {
-    this.$store.dispatch('getTime');
+  mounted () {
+    this.$store.dispatch('getTime')
   }
 }
 </script>

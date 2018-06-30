@@ -1,6 +1,6 @@
 export default [
   {
-    id:1,
+    id: 1,
     name: '我博客完成啦',
     time: '2018年6月22日',
     section: '我要写的NO.1',
@@ -8,9 +8,9 @@ export default [
     author: '——goldenpickup'
   },
   {
-    id:2,
+    id: 2,
     name: '名人名言',
-    time:'2018年6月23日',
+    time: '2018年6月23日',
     section: '心灵鸡汤',
     section1: '时间是一切财富中最宝贵的财富。',
     author: '——德奥弗拉斯多'
