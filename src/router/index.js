@@ -16,6 +16,7 @@ const About = r => require.ensure([], () => r(require('../view/about.vue')), 'ab
 Vue.use(Router)
 
 export default new Router({
+  mode: 'history',
   routes: [{
     path: '/',
     component: Page,
