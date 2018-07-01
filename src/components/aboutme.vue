@@ -14,16 +14,18 @@
 .aboutme{
   width: 60%;
   text-align: left;
-  margin: 0 auto;
-  margin-top: 3em;
+  margin: 3em auto;
   background: rgba(255, 255, 255,.5);
   overflow: hidden;
 }
 p{
+  height: 1.5em;
+  line-height: 1.5em;
   margin-left: 3em;
   margin-top: 1em;
   margin-bottom: 1em;
   color: rgba(255, 0, 0, .7);
+  overflow: hidden;
 }
 span{
   color: rgb(0, 0, 0,.7);

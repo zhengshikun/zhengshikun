@@ -1,15 +1,19 @@
 <template>
   <div class="content">
-    <a :href="info.url"><img :src="info.image"></a>
+    <div class="content-img">
+      <a :href="info.url"><img :src="info.image"></a>
+    </div>
     <h2>{{info.name}}</h2>
     <div class="content-message">
       <router-link to="/about">{{info.from}}</router-link> /
       <span>✭发表于 {{info.time}}</span> /
       <router-link to="/classify">ღ{{info.classification}}</router-link>
     </div>
-    <p>{{info.section1}}</p>
-    <p>{{info.section2}}</p>
-    <p>{{info.section3}}</p>
+    <div class="content-section">
+      <p>{{info.section1}}</p>
+      <p>{{info.section2}}</p>
+      <p>{{info.section3}}</p>
+    </div>
   </div>
 </template>
 
@@ -27,10 +31,18 @@ export default {
   margin: 3em 0;
   float: right;
   text-align: center;
-  padding-bottom: 2em;
   border-bottom: 2px solid rgba(243, 0, 0, 0.5);
   background: rgba(255, 255, 255,0.5);
+  padding-bottom: 2em;
   overflow: hidden;
+}
+.content-message{
+  height: 20px;
+  line-height: 20px;
+  overflow: hidden;
+}
+.content-section{
+  margin-top: 1em;
 }
 img{
   opacity: .7;
@@ -38,17 +50,19 @@ img{
   height: 100%;
 }
 h2{
-  margin-top: 2em;
+  height: 60px;
+  line-height: 60px;
 }
-.content-message,a{
-  margin-top: 1em;
+.content-message, a{
   font-size: .9em;
   color: rgba(0, 0, 0, 0.4);
 }
 p{
-  margin: 2em 0;
+  height: 50px;
+  line-height: 50px;
   margin-left: 4em;
   text-align: left;
+  overflow: hidden;
   color: rgba(0, 0, 0, 0.8)
 }
  a:hover{

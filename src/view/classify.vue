@@ -127,4 +127,13 @@ button:active{
   top: 1px;
   left: 1px;
 }
+@media screen and (max-width: 900px){
+  .classify-side{
+    display: none;
+  }
+  .classify-main{
+    width: 80%;
+    float: none;
+  }
+}
 </style>

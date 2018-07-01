@@ -6,7 +6,7 @@ import experimentData from '../assets/experiment.js'
 import notesData from '../assets/notes.js'
 
 Vue.use(Vuex)
-
+// 数组对象去重
 function getFilterArray (array) {
   const res = []
   const json = {}
@@ -19,6 +19,7 @@ function getFilterArray (array) {
   }
   return res
 };
+// 字符串时钟
 function zeroPadding (num, digit) {
   let zero = ''
   for (var i = 0; i < digit; i++) {

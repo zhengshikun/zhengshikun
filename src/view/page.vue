@@ -46,4 +46,13 @@ export default {
   width: 40%;
   float: right;
 }
+@media screen and (max-width: 900px){
+  .page-side{
+    display: none;
+  }
+  .page-main{
+    width: 80%;
+    float: none;
+  }
+}
 </style>
