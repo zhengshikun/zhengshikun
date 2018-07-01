@@ -38,5 +38,13 @@ export default [
     section: '一个星期又过去了',
     section1: '转眼间时间就过去了，从三月到六月，感觉眨一下眼，就过去了。时间不够用。。。',
     author: '—— goldenpickup'
+  },
+  {
+    id: 6,
+    name: '学习技巧',
+    time: '2018年7月1日',
+    section: '说的有理，赞一个',
+    section1: '学到很多东西的诀窍，就是一下子不要学很多。',
+    author: '—— 洛克'
   }
 ]

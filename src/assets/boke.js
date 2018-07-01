@@ -46,5 +46,17 @@ export default [
     section3: '大概整理了一下',
     url: 'https://zhengshikun.github.io/notes/4/',
     image: 'https://github.com/zhengshikun/notes/blob/master/images/4.jpg?raw=true'
+  },
+  {
+    id: 5,
+    name: 'Git使用',
+    from: '@我',
+    time: '2018年7月1日',
+    classification: '收藏向',
+    section1: 'git了解一哈。',
+    section2: '整理了一部分git使用的命令。',
+    section3: '网络还是个好东西呀。',
+    url: 'https://zhengshikun.github.io/notes/5/',
+    image: 'https://github.com/zhengshikun/notes/blob/master/images/5.jpg?raw=true'
   }
 ]
