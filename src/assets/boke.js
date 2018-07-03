@@ -58,5 +58,17 @@ export default [
     section3: '网络还是个好东西呀。',
     url: 'https://zhengshikun.github.io/notes/5/',
     image: 'https://github.com/zhengshikun/notes/blob/master/images/5.jpg?raw=true'
+  },
+  {
+    id: 6,
+    name: 'canvas',
+    from: '@我',
+    time: '2018年7月3日',
+    classification: '收藏向',
+    section1: 'html5新标签',
+    section2: '又叫画布，随意画多好又不怎么占流量。',
+    section3: '虽然只弄些基础的东西过来。。。',
+    url: 'https://zhengshikun.github.io/notes/6/',
+    image: 'https://github.com/zhengshikun/notes/blob/master/images/6.jpg?raw=true'
   }
 ]
