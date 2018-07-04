@@ -70,5 +70,17 @@ export default [
     section3: '虽然只弄些基础的东西过来。。。',
     url: 'https://zhengshikun.github.io/notes/6/',
     image: 'https://github.com/zhengshikun/notes/blob/master/images/6.jpg?raw=true'
+  },
+  {
+    id: 7,
+    name: '数组常用的方法',
+    from: '@我',
+    time: '2018年7月4日',
+    classification: '收藏向',
+    section1: 'js数组',
+    section2: '应该是比较常用的一些了吧。。',
+    section3: '以前的笔记，现在整理整理。',
+    url: 'https://zhengshikun.github.io/notes/7/',
+    image: 'https://github.com/zhengshikun/notes/blob/master/images/7.jpg?raw=true'
   }
 ]

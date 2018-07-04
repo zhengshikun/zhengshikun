@@ -46,5 +46,13 @@ export default [
     section: '说的有理，赞一个',
     section1: '学到很多东西的诀窍，就是一下子不要学很多。',
     author: '—— 洛克'
+  },
+  {
+    id: 7,
+    name: '学习技巧',
+    time: '2018年7月4日',
+    section: '贪得无厌',
+    section1: '这个世界不缺什么都会一点的，缺的是一项专精的。',
+    author: '—— goldenpickup'
   }
 ]
