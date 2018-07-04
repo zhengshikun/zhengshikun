@@ -52,5 +52,15 @@ export default new Router({
       title: '想看看我吗'
     }
   }
-  ]
+  ],
+  scrollBehavior (to, from, savedPosition) {
+    if (savedPosition) {
+      return savedPosition
+    } else {
+      return {
+        x: 0,
+        y: 0
+      }
+    }
+  }
 })
